@@ -29,9 +29,9 @@ http://opensource.org/licenses/MIT.
   <div class="modal-dialog">
     <div class="modal-header">
       <div class="modal-close-btn" onclick="closeDonationModal()">×</div>
-      <p class="modal-header-text section-title">{% translate donation-modal-header layout %}</p>
+      <p class="modal-header-text section-title"></p>
     </div>
-    <p class="modal-subheader">{% translate donation-modal-subheader layout %}</p>
+    <p class="modal-subheader"></p>
     <div style="text-align: center;">
       <div id="donation-qr-code" data-address="{{ site.donation_banner.address }}"></div>
     </div>
@@ -57,11 +57,11 @@ http://opensource.org/licenses/MIT.
         <input
           style="margin-right: 15px"
           type="text"
-          placeholder="{% translate donation-modal-input-custom-amount layout %} (BTC)"
+          placeholder=" (BTC)"
           id="donation-input-amount-btc" class="donation-amount-input">
         <input
           type="text"
-          placeholder="{% translate donation-modal-input-custom-amount layout %} (USD)"
+          placeholder=" (USD)"
           id="donation-input-amount-usd" class="donation-amount-input">
       </div>
 
